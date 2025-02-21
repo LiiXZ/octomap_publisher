@@ -19,6 +19,7 @@ An Efficient Probabilistic 3D Mapping Framework Based on Octrees
 - Ubuntu14.04 -> indigo
 - Ubuntu16.04 -> kinetic
 - Ubuntu18.04 -> melodic
+- Ubuntu20.04 -> noetic
 
 ```bash
 sudo apt-get install ros-$ROS_DISTRO-octomap-ros 
@@ -32,13 +33,11 @@ sudo apt-get install ros-$ROS_DISTRO-octomap-server
 sudo apt-get install ros-$ROS_DISTRO-octomap-rviz-plugins
 ```
 
-
-
 ### 下载并编译ROS节点
 
 ```bash
 cd catkin_ws/src
-git clone https://gitee.com/tangyang/pointcloud_publisher.git
+git clone https://github.com/LiiXZ/octomap_publisher.git
 cd ..
 catkin_make
 ```
@@ -56,4 +55,3 @@ roslaunch pointcloud_publisher demo.launch
 ```xml
 <param name="path" value="$(find pointcloud_publisher)/data/room_scan1.pcd" type="str" />
 ```
-
