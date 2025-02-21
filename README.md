@@ -12,7 +12,7 @@
 
 An Efficient Probabilistic 3D Mapping Framework Based on Octrees
 
-源码地址：https://github.com/OctoMap/octomap
+源码地址：<https://github.com/OctoMap/octomap>
 
 这里 `$ROS_DISTRO` 代表你电脑上的ros版本，可以通过 `echo $ROS_DISTRO` 查看具体代表的版本，如果命令没有输出内容，可以根据不同的ubuntu系统，替换成字符串即可：
 
